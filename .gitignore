@@ -1,0 +1,39 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Diretórios de dependências
+node_modules/
+vendor/
+
+# Arquivos de configuração do ambiente
+.env
+.env.local
+.env.*.local
+
+# Arquivos de cache
+.cache/
+
+# Arquivos temporários
+temp/
+*.tmp
+
+# Relatórios
+/public/temp/*.csv
+
+# Diretórios de banco de dados
+/database/*.sqlite
+
+# Pastas do IDE
+.vscode/
+.idea/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Configurações do Git
+.git/
